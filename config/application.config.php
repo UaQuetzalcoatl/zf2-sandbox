@@ -15,6 +15,7 @@ return array(
         'OcraCachedViewResolver',
         'SxMail',
         'ZfcUserDoctrineORM',
+        'Alex',
     ),
 
     // These are various options for the listeners attached to the ModuleManager
