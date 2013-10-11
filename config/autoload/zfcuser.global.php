@@ -22,6 +22,7 @@ $settings = array(
      * The entity class should implement ZfcUser\Entity\UserInterface
      */
     'user_entity_class' => 'Alex\Entity\User',
+    'enable_default_entities' => false,
 
     /**
      * Enable registration
@@ -42,7 +43,7 @@ $settings = array(
      */
     //'enable_username' => false,
 
-    /**     
+    /**
      * Authentication Adapters
      *
      * Specify the adapters that will be used to try and authenticate the user
@@ -190,33 +191,33 @@ $settings = array(
 
     /**
      * Enable user state usage
-     * 
+     *
      * Should user's state be used in the registration/login process?
      */
-    //'enable_user_state' => true,
-    
+    'enable_user_state' => true,
+
     /**
      * Default user state upon registration
-     * 
+     *
      * What state user should have upon registration?
      * Allowed value type: integer
      */
     'default_user_state' => 0,
-    
+
     /**
      * States which are allowing user to login
-     * 
+     *
      * When user tries to login, is his/her state one of the following?
      * Include null if you want user's with no state to login as well.
      * Allowed value types: null and integer
      */
     'allowed_login_states' => array( 1 ),
-    
+
     /**
      * User table name
      */
     //'table_name' => 'user',
-    
+
     /**
      * End of ZfcUser configuration
      */
