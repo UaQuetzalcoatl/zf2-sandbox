@@ -40,6 +40,25 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Home') ?></a></li>
                     </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <?php if (!$this->zfcUserIdentity()) : ?>
+                            <li><a href="<?php echo $this->url('zfcuser/login');?>"><?php echo $this->translate('Login');?></a></li>
+                        <?php else : ?>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $this->zfcUserDisplayName();?> <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <?php if (true) : ?>
+                                        <li><a href="<?php echo $this->url('zfcadmin');?>"><?php echo $this->translate('Admin Area');?></a></li>
+                                    <?php endif;?>
+                                    <li><a href="<?php echo $this->url('zfcuser');?>"><?php echo $this->translate('Profile');?></a></li>
+                                    <li><a href="<?php echo $this->url('zfcuser/changeemail');?>"><?php echo $this->translate('Change Email');?></a></li>
+                                    <li><a href="<?php echo $this->url('zfcuser/changepassword');?>"><?php echo $this->translate('Change Password');?></a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="<?php echo $this->url('zfcuser/logout');?>"><?php echo $this->translate('Logout');?></a></li>
+                                </ul>
+                            </li>
+                        <?php endif; ?>
+                  </ul>
                 </div><!--/.nav-collapse -->
             </div>
         </nav>
@@ -47,7 +66,7 @@
             <?php echo $this->content; ?>
             <hr>
             <footer>
-                <p>&copy; 2005 - <?php echo date('Y') ?> by Zend Technologies Ltd. <?php echo $this->translate('All rights reserved.') ?></p>
+                <p>&copy; <?php echo date('Y') ?> by Alexey Savchenko. <?php echo $this->translate('All rights reserved.') ?></p>
             </footer>
         </div> <!-- /container -->
         <?php echo $this->inlineScript() ?>
