@@ -1,6 +1,6 @@
 <?php
 
-namespace Alex;
+namespace Skeleton;
 
 /**
  * Description of Module

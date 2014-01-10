@@ -10,12 +10,11 @@ return array(
         'ZfcAdmin',
         'BjyAuthorize',
         'ZendDeveloperTools',
-        'ZfcTwitterBootstrap',
         'OcraServiceManager',
         'OcraCachedViewResolver',
         'SxMail',
         'ZfcUserDoctrineORM',
-        'Alex',
+        'Skeleton',
     ),
 
     // These are various options for the listeners attached to the ModuleManager
