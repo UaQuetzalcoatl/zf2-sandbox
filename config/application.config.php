@@ -10,10 +10,11 @@ return array(
         'ZfcAdmin',
         'BjyAuthorize',
         'ZendDeveloperTools',
-        'OcraServiceManager',
+        //'OcraServiceManager',
         'OcraCachedViewResolver',
         'SxMail',
         'ZfcUserDoctrineORM',
+        'SlmGoogleAnalytics',
         'Skeleton',
     ),
 

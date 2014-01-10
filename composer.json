@@ -20,7 +20,6 @@
         "slm/google-analytics": "0.3.*",
         "rwoverdijk/sxmail": "1.*",
         "bjyoungblood/bjy-profiler": "dev-master",
-        "ocramius/ocra-service-manager": "dev-master",
         "ocramius/ocra-cached-view-resolver": "1.0.*"
     }
 }

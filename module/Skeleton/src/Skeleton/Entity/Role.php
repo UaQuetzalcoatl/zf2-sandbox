@@ -22,6 +22,11 @@ use Doctrine\ORM\Mapping as ORM;
 class Role implements HierarchicalRoleInterface
 {
     /**
+     * default role name for registration
+     */
+    const DEFAULT_ROLE_ID = 'user';
+
+    /**
      * @var int
      * @ORM\Id
      * @ORM\Column(type="integer")
