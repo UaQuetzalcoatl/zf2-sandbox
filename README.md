@@ -1,5 +1,5 @@
-ZendSkeletonApplication
+Zend Framework 2 Application
 =======================
 
-Sandbox application
+Skeleton application
 -------------------

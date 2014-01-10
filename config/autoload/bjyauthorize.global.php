@@ -38,6 +38,7 @@ return array(
         'guards' => array(
             'BjyAuthorize\Guard\Route' => array(
                 array('route' => 'zfcadmin', 'roles' => array('admin')),
+                array('route' => 'zfcadmin/users', 'roles' => array('admin')),
                 array('route' => 'zfcuser', 'roles' => array('user')),
                 array('route' => 'zfcuser/logout', 'roles' => array('user')),
                 array('route' => 'zfcuser/login', 'roles' => array('guest')),
