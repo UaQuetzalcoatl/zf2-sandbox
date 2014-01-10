@@ -2,6 +2,7 @@
 
 namespace Admin\Controller;
 
+use Zend\View\Model\ViewModel;
 use Skeleton\Controller\EntityManagerAwareController;
 
 /**
@@ -12,7 +13,9 @@ use Skeleton\Controller\EntityManagerAwareController;
 class UserController extends EntityManagerAwareController
 {
     public function listAction()
-    {}
+    {
+        return new ViewModel;
+    }
 
     public function editAction()
     {}
