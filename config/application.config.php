@@ -14,6 +14,7 @@ return array(
         'OcraCachedViewResolver',
         'SxMail',
         'ZfcUserDoctrineORM',
+        'SlmGoogleAnalytics',
         'Skeleton',
     ),
 

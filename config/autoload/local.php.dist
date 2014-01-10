@@ -65,7 +65,7 @@ return array(
             'zfcuser_entity' => array(
                 // customize path
                 'class' => 'Doctrine\ORM\Mapping\Driver\AnnotationDriver',
-                'paths' => array(__DIR__ . '/../../module/Alex/src/Alex/Entity'),
+                'paths' => array(__DIR__ . '/../../module/Skeleton/src/Skeleton/Entity'),
             ),
             // Configuration for service `doctrine.driver.orm_default` service
             'orm_default' => array(
@@ -76,13 +76,13 @@ return array(
                 // Map of driver names to be used within this driver chain, indexed by
                 // entity namespace
                 'drivers' => array(
-                    'Alex\Entity' => 'zfcuser_entity',
+                    'Skeleton\Entity' => 'zfcuser_entity',
                 )
             ),
         ),
     ),
     'zfcuser' => array(
-        'user_entity_class'       => 'Alex\Entity\User',
+        'user_entity_class'       => 'Skeleton\Entity\User',
         'enable_default_entities' => false,
     ),
     'bjyauthorize' => array(
@@ -93,7 +93,7 @@ return array(
             // using an object repository (entity repository) to load all roles into our ACL
             'BjyAuthorize\Provider\Role\ObjectRepositoryProvider' => array(
                 'object_manager'    => 'doctrine.entity_manager.orm_default',
-                'role_entity_class' => 'Alex\Entity\Role',
+                'role_entity_class' => 'Skeleton\Entity\Role',
             ),
         ),
     ),
