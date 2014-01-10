@@ -37,9 +37,17 @@ return array(
         ),
         'guards' => array(
             'BjyAuthorize\Guard\Route' => array(
+                // admin
                 array('route' => 'zfcadmin', 'roles' => array('admin')),
+                array('route' => 'zfcadmin/users', 'roles' => array('admin')),
+                array('route' => 'zfcadmin/edit-user', 'roles' => array('admin')),
+                array('route' => 'zfcadmin/delete-user', 'roles' => array('admin')),
+                // user
                 array('route' => 'zfcuser', 'roles' => array('user')),
                 array('route' => 'zfcuser/logout', 'roles' => array('user')),
+                array('route' => 'zfcuser/changeemail', 'roles' => array('user')),
+                array('route' => 'zfcuser/changepassword', 'roles' => array('user')),
+                // guest
                 array('route' => 'zfcuser/login', 'roles' => array('guest')),
                 array('route' => 'zfcuser/register', 'roles' => array('guest')),
                 // Below is the default index action used by the ZendSkeletonApplication
