@@ -5,4 +5,9 @@ return array(
             'zfcuser_doctrine_em' => 'Doctrine\ORM\EntityManager',
         ),
     ),
+    'controllers' => array(
+        'initializers' => array(
+            'Skeleton\Initializer\EntityManagerInitializer'
+        ),
+    ),
 );
