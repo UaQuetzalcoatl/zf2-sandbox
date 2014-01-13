@@ -1,7 +1,7 @@
 Zend Framework 2 Application
 =======================
 
-Skeleton application
+Skeleton application with travis integration
 -------------------
 
 Simple skeleton with same ZF2 modules integration:
