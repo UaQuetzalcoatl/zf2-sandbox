@@ -7,6 +7,7 @@ Skeleton application
 Simple skeleton with same ZF2 modules integration:
 + **DoctrineModule** additional doctrine functionality
 + **DoctrineORMModule** integrates Doctrine 2 ORM with Zend Framework 2
++ **DoctrineDataFixtureModule** integrates Doctrine 2 data-fixture with Zend Framework 2
 + **ZfcBase** base zfc-commons module
 + **ZfcUser** user functionality (login, registration, change password, change email)
 + **ZfcAdmin** simple admin interface
