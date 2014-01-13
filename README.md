@@ -1,5 +1,7 @@
 Zend Framework 2 Application
 =======================
+[![Master Branch Build Status](https://travis-ci.org/UaQuetzalcoatl/zf2-skeleton.png?branch=master)](https://travis-ci.org/UaQuetzalcoatl/zf2-skeleton)
+
 
 Skeleton application with travis integration
 -------------------
