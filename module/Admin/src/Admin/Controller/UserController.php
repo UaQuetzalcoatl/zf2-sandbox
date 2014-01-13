@@ -18,8 +18,12 @@ class UserController extends EntityManagerAwareController
     }
 
     public function editAction()
-    {}
+    {
+
+    }
 
     public function deleteAction()
-    {}
+    {
+        
+    }
 }
