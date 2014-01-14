@@ -24,4 +24,5 @@ $loader->add("ModulesTests\\", $cwd);
 $loader->register();
 
 ServiceManagerGrabber::setServiceConfig(require_once './config/application.config.php');
+ServiceManagerGrabber::run();
 ob_start();
