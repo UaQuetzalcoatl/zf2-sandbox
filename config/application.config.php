@@ -16,6 +16,7 @@ return array(
         'SxMail',
         'ZfcUserDoctrineORM',
         'SlmGoogleAnalytics',
+        'PhlySimplePage',
         'Skeleton',
         'Admin'
     ),
