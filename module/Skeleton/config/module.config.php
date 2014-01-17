@@ -38,6 +38,26 @@ return array(
                     ),
                 ),
             ),
+            'contacts' => array(
+                'type' => 'Literal',
+                'options' => array(
+                    'route' => '/contacts',
+                    'defaults' => array(
+                        'controller' => 'PhlySimplePage\Controller\Page',
+                        'template'   => 'contacts',
+                    ),
+                ),
+            ),
+            'services' => array(
+                'type' => 'Literal',
+                'options' => array(
+                    'route' => '/services',
+                    'defaults' => array(
+                        'controller' => 'PhlySimplePage\Controller\Page',
+                        'template'   => 'services',
+                    ),
+                ),
+            ),
         ),
     ),
     'view_manager' => array(

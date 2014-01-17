@@ -54,6 +54,8 @@ return array(
                 array('route' => 'home', 'roles' => array('guest', 'user')),
                 //static pages
                 array('route' => 'about', 'roles' => array('guest', 'user')),
+                array('route' => 'services', 'roles' => array('guest', 'user')),
+                array('route' => 'contacts', 'roles' => array('guest', 'user')),
             ),
         ),
         'rule_providers' => array(
